@@ -7,7 +7,7 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
 <br>
 <h3>Sample Image:</h3>
   <p align='center'>
-    <img src="https://github.com/adityamd/Camera/blob/Images_Add/static/Image_1.jpg" height=400px width=400px>
+    <img src="https://github.com/adityamd/Camera/blob/master/static/Image_1.jpg" height=400px width=400px>
   </p> 
 <br>
 <br>

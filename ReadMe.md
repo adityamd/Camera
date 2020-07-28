@@ -8,14 +8,7 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
 <h3>Sample Image:</h3>
   <p align='center'>
     <img src="https://github.com/adityamd/Camera/blob/Images_Add/static/Image_1.jpg" height=400px width=400px>
-  </p>
-<br>
-<h3>Sample Video:</h3>
-  <p align='center'>
-    <iframe width="420" height="315"
-     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
-    </iframe>
-  </p>  
+  </p> 
 <br>
 <br>
 <b> Few Points to note here are:

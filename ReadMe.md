@@ -2,7 +2,7 @@
 
 This project is a simple camera application built using OpenCV,PyAudio,FFMPEG and Tkinter that can click images, record videos with audio and save them. The application looks like:<br>
 <p align='center'>
-<img src="https://github.com/adityamd/Camera/blob/Images_Add/static/Screenshot%20(61).png" height=400px width=400px>
+<img src="https://github.com/adityamd/Camera/blob/master/static/Screenshot%20(61).png" height=400px width=400px>
 </p>
 <br>
 <h3>Sample Image:</h3>

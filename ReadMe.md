@@ -20,7 +20,7 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
         Note: Using the Close application button on top right corner will not release the web-cam.
         </b></kbd>
     </li>
-    <li>You must not have any file named "Image_1.jpg" or "Video0.mp4" in order to save the images or recordings correctly</li>
+    <li>You must not have any file named "Image_1.jpg" or "Video0.mp4" in order to save the images or recordings correctly.</li>
   </ul>
 </b>
 <br>
@@ -55,7 +55,6 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
    The last and final step to run the project is installing FFMPEG on your system. FFMPEG is a command line utility that helps you muxing the audio with the video.To install FFMPEG:
    <ol>
     <li>Head on over thhe link below</li>
-    <br>
     <a href="http://ffmpeg.zeranoe.com/builds/ ">http://ffmpeg.zeranoe.com/builds/ </a>
     </li>
     <li>Choose the file you want to download based on your system requirements (static version is recommended).</li>

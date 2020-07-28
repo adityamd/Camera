@@ -5,6 +5,18 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
 <img src="https://github.com/adityamd/Camera/blob/Images_Add/static/Screenshot%20(61).png" height=400px width=400px>
 </p>
 <br>
+<h3>Sample Image:</h3>
+  <p align='center'>
+    <img src="https://github.com/adityamd/Camera/blob/Images_Add/static/Image_1.jpg" height=400px width=400px>
+  </p>
+<br>
+<h3>Sample Video:</h3>
+  <p align='center'>
+    <iframe width="420" height="315"
+     src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+    </iframe>
+  </p>  
+<br>
 <br>
 <b> Few Points to note here are:
   <ul>
@@ -36,8 +48,33 @@ This project is a simple camera application built using OpenCV,PyAudio,FFMPEG an
  <br><br>
  
  <h3>Installing OpenCV:</h3>
- The final step to run the project is to install OpenCV. You can install OpenCV using the command: <br><br><code>pip install opencv-python</code></br><br>Fire command <code>pip list</code>
+ The next step to run the project is to install OpenCV. You can install OpenCV using the command: <br><br><code>pip install opencv-python</code></br><br>Fire command <code>pip list</code>
  on your cmd/powershell/terminal and look for 'opencv-python' to check if opencv is installed correctly on your system.
  
  <br><br>
  
+ <h3>Installing PyAudio:</h3>
+  PyAudio is a python module that helps playing with the audio. You can play,record,save or analyze any sound or audio stream using this library. To install it, simply fire the command <code>pip install pyaudio</code> on your system cmd/powershell/terminal. To confirm pyaudio download, head to the terminal and type <code>pip list</code>. Look for pyaudio module in the output.
+  
+  <br><br>
+  
+  <h3>Installing FFMPEG:</h3>
+   The last and final step to run the project is installing FFMPEG on your system. FFMPEG is a command line utility that helps you muxing the audio with the video.To install FFMPEG:
+   <ol>
+    <li>Head on over thhe link below</li>
+    <br>
+    <a href="http://ffmpeg.zeranoe.com/builds/ ">http://ffmpeg.zeranoe.com/builds/ </a>
+    </li>
+    <li>Choose the file you want to download based on your system requirements (static version is recommended).</li>
+    <li>After downloading, unzip the file on your local system</li>
+    <li>Lastly, in order to use this utility anywhere, you will need to add FFMPEG to the path. For this, head over to the directory where you have extracted the file. Go to bin folder and copy the path. Now, search for <em>"Edit the system environment variables"</em> in Windows search bar, click on "Environment Variables", look for the option "Path"in System Variables section,click on it, click "New" and paste the path to "bin" folder.</li>
+  </ol>
+In order to check, if FFMPEG is installed correctly and added to path, open your system cmd/powershell/terminal and type <code>ffmpeg</code>.
+<br>
+<h2>Run The Application</h2>
+To run the application:
+<ol>
+  <li>Open cmd/powershell/terminal on your system and head over to the directory where you have cloned this repository.</li>
+  <li>Type <code>python camera.py</code></li>
+  You should see the application window opening.
+</ol>
